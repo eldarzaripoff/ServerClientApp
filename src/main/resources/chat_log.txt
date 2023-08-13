@@ -1,0 +1,17 @@
+/exit
+Diego
+Hola!
+Como estas?
+Ok, I gonna go, Chao!
+/exit
+Diego
+Hola!
+Jose
+Hola, vato!
+Hola, amigo!
+como estas?
+me guesto
+okay, I gotta go, chao!
+Chao, amigo
+/exit
+/exit
