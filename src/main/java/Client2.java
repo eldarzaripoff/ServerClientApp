@@ -19,7 +19,7 @@ public class Client2 {
         outMess = new PrintWriter(clientSocket.getOutputStream(), true);
         inMess = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         scannerConsole = new Scanner(System.in);
-        FileWriter fileWriter = new FileWriter("C:\\Users\\zarip\\IdeaProjects\\MyServerTest\\MyServerTest\\src\\main\\resources\\chat_log.txt", true);
+        FileWriter fileWriter = new FileWriter("MyServerTest/src/main/resources/chat_log.txt", true);
 
         AtomicBoolean flag = new AtomicBoolean(true);
 

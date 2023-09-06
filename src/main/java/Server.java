@@ -14,7 +14,7 @@ public class Server {
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("Start server");
         Properties props = new Properties();
-        try(InputStream inputStream = new FileInputStream("C:\\Users\\zarip\\IdeaProjects\\MyServerTest\\MyServerTest\\src\\main\\resources\\settings.txt")) {
+        try(InputStream inputStream = new FileInputStream("MyServerTest/src/main/resources/settings.txt")) {
             props.load(inputStream);
             int port = Integer.parseInt(props.getProperty("port"));
             try (ServerSocket serverSocket = new ServerSocket(port)) {
